@@ -10,7 +10,7 @@ const ProductDetailsWithLogger = withRenderLogger(ProductDetails);
 const App = () => {
   return (
     <div>
-      <UserProfileWithLogger name="Abhishek Sharma" age={26} />
+      <UserProfileWithLogger name="Abhishek Kumar Sharma" age={26} />
       <ProductDetailsWithLogger productName="ReactJS Book" price="$25" />
     </div>
   );
